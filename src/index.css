@@ -2,6 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Importar las fuentes */
+@font-face {
+  font-family: 'Avenir';
+  src: url('./fonts/Avenir-Black.ttf') format('truetype');
+  font-weight: 900; /* Black */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./fonts/Avenir-Heavy.ttf') format('truetype');
+  font-weight: 800; /* Heavy */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./fonts/Avenir-Book.ttf') format('truetype');
+  font-weight: 400; /* Book */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./fonts/Avenir-Regular.ttf') format('truetype');
+  font-weight: 500; /* Regular */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url('./fonts/Avenir-Regular.ttf') format('truetype');
+  font-weight: 600; /* Regular */
+  font-style: normal;
+}
+
+/* Aplicar la fuente Avenir como predeterminada */
+body {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 400; /* Book por defecto */
+}
 @keyframes blob {
   0% {
     transform: translate(0px, 0px) scale(1);
@@ -27,4 +67,33 @@
 
 .animation-delay-4000 {
   animation-delay: 4s;
+}
+
+
+/* Animaciones personalizadas */
+@keyframes float {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+}
+
+@keyframes float-delay {
+  0%, 100% {
+    transform: translate(50%, 50%) scale(1);
+  }
+  50% {
+    transform: translate(50%, 50%) scale(1.1);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delay {
+  animation: float-delay 6s ease-in-out infinite;
+  animation-delay: 2s;
 }

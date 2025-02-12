@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function About() { 
@@ -19,13 +18,60 @@ export default function About() {
             <p className="text-xl text-gray-600 mb-6">
               Ever since I was a child, I have been fascinated by finding magic in the little things and in those moments that leave a mark on you. This fascination for what really matters has led me to develop my vocation: to create experiences that are not only functional, but that{' '}
               <span className="relative inline-block">
-                <span className="relative z-10">connect, inspire, and leave a mark</span>
-                <span
-                  className="absolute bottom-0 left-0 w-full h-3 bg-no-repeat bg-bottom"
-                  style={{
-                    backgroundImage: `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='12' viewBox='0 0 500 12'><defs><linearGradient id='gradient' x1='0%' y1='0%' x2='100%' y2='0%'><stop offset='0%' stop-color='%23EBA42F' /><stop offset='50%' stop-color='%232FC646' /><stop offset='100%' stop-color='%23A362E4' /></linearGradient></defs><path d='M0 6 Q 125 12, 250 6 T 500 6 Q 475 0, 450 6 Q 425 12, 400 6' stroke='url(%23gradient)' stroke-width='3' fill='none' stroke-linecap='round' /></svg>")`,
-                  }}
-                ></span>
+                <span className="relative z-10">
+                  {/* Subrayado para "connect" */}
+                  <span style={{ color: '#EBA42F' }} className="relative inline-block">
+                    connect
+                    <svg
+                      className="absolute bottom-0 left-0 w-full h-3"
+                      viewBox="0 0 500 12"
+                      preserveAspectRatio="none"
+                    >
+                      <path
+                        d="M0 6 Q 125 12, 250 6 T 500 6 Q 475 0, 450 6 Q 425 12, 400 6"
+                        stroke="#EBA42F" // Color plano #EBA42F
+                        strokeWidth="3"
+                        fill="none"
+                        strokeLinecap="round"
+                      />
+                    </svg>
+                  </span>
+                  ,{' '}
+                  {/* Subrayado para "inspire" */}
+                  <span style={{ color: '#2FC646' }} className="relative inline-block">
+                    inspire
+                    <svg
+                      className="absolute bottom-0 left-0 w-full h-3"
+                      viewBox="0 0 500 12"
+                      preserveAspectRatio="none"
+                    >
+                      <path
+                        d="M0 6 Q 125 12, 250 6 T 500 6 Q 475 0, 450 6 Q 425 12, 400 6"
+                        stroke="#2FC646" // Color plano #2FC646
+                        strokeWidth="3"
+                        fill="none"
+                        strokeLinecap="round"
+                      />
+                    </svg>
+                  </span>
+                  , and{' '}
+                  <span style={{ color: '#A362E4' }} className="relative inline-block">
+                    leave a mark
+                    <svg
+                      className="absolute bottom-0 left-0 w-full h-3"
+                      viewBox="0 0 500 12"
+                      preserveAspectRatio="none"
+                    >
+                      <path
+                        d="M0 6 Q 125 12, 250 6 T 500 6 Q 475 0, 450 6 Q 425 12, 400 6"
+                        stroke="#A362E4" // Color plano #A362E4
+                        strokeWidth="3"
+                        fill="none"
+                        strokeLinecap="round"
+                      />
+                    </svg>
+                  </span>
+                </span>
               </span>{' '}
               on people.
             </p>
@@ -53,8 +99,8 @@ export default function About() {
                   />
                 </div>
                 <div className="mt-6 text-gray-600 text-sm md:text-base">
-                  <p>Product Designer</p>
-                  <p>2024</p>
+                  <p></p>
+                  <p></p>
                 </div>
               </div>
             </div>
