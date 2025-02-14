@@ -93,7 +93,7 @@ export default function About() {
               <div className="absolute inset-0 p-4">
                 <div className="w-full h-[80%] overflow-hidden">
                   <img 
-                    src="./src/img/my-photo.png" // Asegúrate de que la imagen esté en esta ubicación
+                    src="/img/my-photo.png" 
                     alt="Gus Alonso"
                     className="w-full h-full object-cover" // Ajuste para que la imagen ocupe todo el espacio disponible
                   />

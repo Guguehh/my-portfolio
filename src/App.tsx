@@ -47,7 +47,7 @@ const projects: Project[] = [
   {
     title: "Selene AI",
     description: "Selene Student Organizational Assistant is an app focused on the specific needs of students regarding organization and time management. Using AI, Selene provides a personalized experience to simplify student life, assisting in task organization, schedule management, and staying up to date with responsibilities.",
-    image: "./src/img/Selene compress.png",
+    image: "/img/Selene compress.png",
     category: "UX Research",
     tags: ["UX/UI", "Organization", "UX Research", "Wireframing"],
     link: "https://www.behance.net/gallery/201054261/Selene-AI-Mobile-App-UXUI"
@@ -55,7 +55,7 @@ const projects: Project[] = [
   {
     title: "Laohu, Esports Manager",
     description: "Laohu is a unified gaming platform that connects all your games in one place, offering easy access to news, stats, and live esports streams. It lets you record, edit, and share epic gaming clips, discover highlights and strategies from other players, and track your personal stats across all connected games—all designed to create a seamless experience for true gaming fans.",
-    image: "./src/img/Laohu.png",
+    image: "/img/Laohu.png",
     category: "Mobile Design",
     tags: ["Mobile", "Gaming", "UI Design", "Prototyping"],
     link: "https://www.behance.net/gallery/217032375/Laohu-Esports-Management-UX-UI"
@@ -63,7 +63,7 @@ const projects: Project[] = [
   {
     title: "TogetThere",
     description: "As CCO and UX/UI Designer, I joined to this Startup project with a mission to reduce traffic congestion, lower carbon emissions, and promote sustainable urban transportation through an intuitive and impactful app. ToGetThere isn’t just about getting from point A to point B; it’s about building a smarter, greener future for urban mobility.",
-    image: "./src/img/ToGetThere.png",
+    image: "/img/ToGetThere.png",
     category: "UX Research",
     tags: ["Mobile App", "EcoFriendly App", "UX Research", "UX Design"],
     link: "https://medium.com/@guguehalonso/c%C3%B3mo-constru%C3%AD-una-soluci%C3%B3n-de-movilidad-sostenible-para-empresas-y-universidades-26d95eebe23c"
@@ -71,7 +71,7 @@ const projects: Project[] = [
   {
     title: "Gerty",
     description: "Diseño de red social innovadora. Creación de una experiencia única que fomenta conexiones significativas entre usuarios.",
-    image: "./src/img/Gerty.png",
+    image: "/img/Gerty.png",
     category: "Mobile Design",
     tags: ["Healthcare", "Mobile", "UX Research", "User Testing"],
     link: "https://www.behance.net/gallery/209086875/Gerty-Clinical-Medical-Assistant-UX-UI-Design"
@@ -79,7 +79,7 @@ const projects: Project[] = [
   {
     title: "SalaryAr",
     description: "The SalaryAr project involved designing and developing an app to simplify a critical yet often confusing process: calculating payroll settlements. With a focus on clarity and ease of use, SalaryAr makes payroll calculations accessible for everyone. Check out the full UX design process in my Medium post!",
-    image: "./src/img/SalaryAr.png",
+    image: "/img/SalaryAr.png",
     category: "UX Research",
     tags: ["Education", "UX Design", "Fintech", "UX Research"],
     link: "https://medium.com/@guguehalonso/dise%C3%B1ando-una-app-para-calcular-liquidaciones-de-sueldo-r%C3%A1pidas-262cdeb61da8"
@@ -87,7 +87,7 @@ const projects: Project[] = [
   {
     title: "Fliyng Tracking App",
     description: "Flyng is an app designed to simplify real-time flight tracking. With accurate information and personalized alerts, Flyng helps you plan your trips better and avoid surprises.",
-    image: "./src/img/FlyApp.png",
+    image: "/img/FlyApp.png",
     category: "Mobile Design",
     tags: ["Flyng App", "Mobile App", "UI Design", "Glassmorphism"],
     link: "https://www.behance.net/gallery/160218725/FlyApp-Design-Concept"
@@ -95,7 +95,7 @@ const projects: Project[] = [
   {
     title: "UniteStats",
     description: "UniteStats is an app for tracking stats, guides, and rankings for Pokémon Unite. Designed for players looking to up their game, it delivers clear, actionable insights all in one place. Check out the UX design process!",
-    image: "./src/img/UniteStats.png",
+    image: "/img/UniteStats.png",
     category: "Mobile Design",
     tags: ["Gaming App", "Mobile App", "UI Design", "Analytics"],
     link:""
@@ -103,7 +103,7 @@ const projects: Project[] = [
   {
     title: "FuturaCam",
     description: "Panel de control para dispositivos domésticos inteligentes. Diseño centrado en la simplicidad y el control eficiente del hogar.",
-    image: "./src/img/FuturaCam.png",
+    image: "/img/FuturaCam.png",
     category: "UX Research",
     tags: ["Mobile App", "UI Design", "Camera App"],
     link: "https://www.behance.net/gallery/156148867/FuturaCam-Camera-App"
@@ -111,7 +111,7 @@ const projects: Project[] = [
   {
     title: "SIME Gestion Estudiantil",
     description: "Diseño de una billetera digital para criptomonedas. Enfoque en la seguridad y la facilidad de uso.",
-    image: "./src/img/SIME.png",
+    image: "/img/SIME.png",
     category: "UX Research",
     tags: ["School App", "Management", "UX Research","UX Writing", "UI Design"],
     link: "https://www.behance.net/gallery/178581609/UX-Case-Study-School-Management-SIME"
@@ -119,7 +119,7 @@ const projects: Project[] = [
   {
     title: "VisionOS Concept",
     description: "Game-ow is a concept created for VisionOS for gamers, combining the ability to play games with the ability to enjoy streams and chat with friends in one place.",
-    image: "./src/img/GameMeow - VisionOS.png",
+    image: "/img/GameMeow - VisionOS.png",
     category: "Desktop Apps",
     tags: ["VisionOs", "Desktop", "UI Design", "App Management"],
     link: ""
@@ -151,7 +151,7 @@ const projects: Project[] = [
       };
     
       const openResume = () => {
-        window.open('./src/GustavoG_Alonso_CV.pdf', '_blank');
+        window.open('/GustavoG_Alonso_CV.pdf', '_blank');
       };
     
       const handleProjectsClick = () => {
@@ -185,7 +185,7 @@ const projects: Project[] = [
               <div className="flex justify-between h-16 items-center">
                 <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
                   <img 
-                    src="./src/img/logo.png"
+                    src="/img/logo.png"
                     className="w-12 h-10 md:w-16 md:h-12" // Ajusta el tamaño del logo
                   />
                 </Link>
@@ -357,7 +357,7 @@ const projects: Project[] = [
                       <div className="absolute inset-0 p-2 md:p-4">
                         <div className="w-[100px] h-[100px] md:w-[270px] md:h-[270px] overflow-hidden">
                           <img 
-                            src="./src/img/my-photo.png"
+                            src="/img/my-photo.png"
                             alt="Gus Alonso"
                             className="w-full h-full object-cover"
                           />
