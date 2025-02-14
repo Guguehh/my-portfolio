@@ -315,7 +315,7 @@ const projects: Project[] = [
                     </div>
                     
                     <h2 className="text-2xl font-medium text-gray-700 mb-4">
-                      Hi, I'm Gustavo G. Alonso
+                      Hi, I'm Gus G. Alonso
                     </h2>
                     <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
                       I design impactful products for{' '}
@@ -600,7 +600,7 @@ const projects: Project[] = [
       <div className="space-y-4">
         <Link to="/">
           <img 
-            src="./src/img/logo-light.png" // Ruta a tu logo
+            src="/img/logo-light.png" // Ruta a tu logo
             alt="Gus Alonso Logo"
             className="w-12 h-10 md:w-16 md:h-12" // Ajusta el tamaño del logo
           />
@@ -637,7 +637,7 @@ const projects: Project[] = [
         <h3 className="text-lg font-semibold">Follow Me</h3>
         <div className="flex space-x-4">
           <a
-            href="https://github.com/tuusuario"
+            href="https://github.com/Guguehh/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-200 hover:text-white transition-colors duration-300"
@@ -664,7 +664,7 @@ const projects: Project[] = [
 
     {/* Derechos de autor */}
     <div className="mt-8 border-t border-gray-700 pt-8 text-center text-gray-300">
-      <p>© {new Date().getFullYear()} Gus Alonso. All rights reserved.</p>
+      <p>© {new Date().getFullYear()} Gus G. Alonso. All rights reserved. ❤️</p>
     </div>
   </div>
 </footer>
