@@ -304,7 +304,7 @@ const projects: Project[] = [
                         <div className="absolute inset-0 p-2">
                           <div className="w-[90px] h-[90px] overflow-hidden">
                             <img 
-                              src="./src/img/my-photo.png"
+                              src="/img/my-photo.png"
                               alt="Gus Alonso"
                               className="w-full h-full object-cover"
                             />
