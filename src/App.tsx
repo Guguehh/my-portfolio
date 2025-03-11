@@ -45,6 +45,14 @@
 // Mis proyectos :)
 const projects: Project[] = [
   {
+    title: "Bookstar AI",
+    description: "As a Product Designer, I had the opportunity to craft the user experience for Bookstar, an innovative app for exchanging books and building your own digital library. With an intuitive, user-centered design, this app connects readers around the world. Coming soon!",
+    image: "/img/Bookstar.png",
+    category: "UX Research",
+    tags: ["UX/UI", "Product Design", "UX Research", "Wireframing"],
+    link: "https://www.behance.net/gallery/201054261/Selene-AI-Mobile-App-UXUI"
+  },
+  {
     title: "Selene AI",
     description: "Selene Student Organizational Assistant is an app focused on the specific needs of students regarding organization and time management. Using AI, Selene provides a personalized experience to simplify student life, assisting in task organization, schedule management, and staying up to date with responsibilities.",
     image: "/img/Selene compress.png",
